@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local RAG data
+daraz_rag/
+faiss_index/
+knowledge_base/
+*.index
+metadata.json
+*.zip
+
+# Streamlit
+.streamlit/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
